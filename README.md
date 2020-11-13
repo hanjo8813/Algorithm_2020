@@ -5,7 +5,7 @@
 <br>
 
 > ### 목차
-- <a href="\week1">1주차 : 자료구조 복습</a>
+- <a href="\week1">1주차 : 자료구조 복습 </a>
 - <a href="\week2">2주차 : 우선순위큐</a>
 - <a href="\week3">3주차 : 힙 생성</a>
 - <a href="\week4">4주차 : 힙 정렬</a>
