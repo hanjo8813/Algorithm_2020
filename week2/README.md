@@ -52,4 +52,4 @@ n개의 양의 정수(중복 가능)를 입력받아, 아래에서 설명하는 
 | |0.054142322ms ↦ 삽입 정렬 수행시간|
 
 3. ### 비교 결과
-<img src="../Reference_img/g3.png" width='400' height='250'>
+<img src="../Reference_img/g3.png" width='600' height='350'>
