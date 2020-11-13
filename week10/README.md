@@ -1,10 +1,10 @@
 <h1><strong >그래프의 인접리스트, 인접행렬 구현하기</strong></h1>
 <hr>
 
+## 문제 설명
+
 <img src="../Reference_img/g1.png" width='250' height='200'>
 <img src="../Reference_img/g2.png" width='250' height='200'>
-
-## 문제 설명
 
 1. 위 그림처럼 무방향 가중 그래프가 주어지며, 정점이름과 간선, 간선의 가중치로 이루어진다. 위 그래프를 구현한다.
 2. 구현 후 문자 a, m, q를 입력받는다.
