@@ -25,5 +25,7 @@
 ## 문제 2
 `인접행렬로 그래프 구현하기`
 
->아래 그림과 같은 구조로 구현하였음.
-<img src="../Reference_img/g2.png" width='250' height='200'>
+<br>
+
+> #### 아래 그림과 같은 구조로 구현하였음.
+<img src="../Reference_img/g2.png" width='500' height='350'>
