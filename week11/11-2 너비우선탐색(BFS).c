@@ -64,14 +64,12 @@ void insertVE(int name1, int name2)
 	G.e_arr[last_index].o_name = name1;
 	G.e_arr[last_index].d_name = name2;
 
-	// 연결하려는 정점과 간선의 주소를 불러온다
-	int index1 = name1 - 1;
-	int index2 = name2 - 1;
-	vertex* v1 = &(G.v_arr[index1]);
-	vertex* v2 = &(G.v_arr[index2]);
+	// 연결 간선의 주소를 불러온다
 	edge* new_e = &(G.e_arr[last_index]);
 
 	// 인접행렬-간선 연결
+	int index1 = name1 - 1;
+	int index2 = name2 - 1;
 	a_Matrix[index1][index2] = new_e;
 	a_Matrix[index2][index1] = new_e;
 
