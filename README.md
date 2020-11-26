@@ -13,5 +13,6 @@
 - <a href="\week6">6주차 : 사전</a>
 - <a href="\week8">8주차 : 이진탐색/AVL 트리</a>
 - <a href="\week9">9주차 : 해시테이블</a>
-- <a href="\week10">10주차 : 그래프(인접리스트,행렬)</a>
-- <a href="\week11">11주차 : 그래프(DFS, BFS)</a>
+- <a href="\week10">10주차 : 그래프구현(인접리스트,행렬)</a>
+- <a href="\week11">11주차 : 그래프순회(DFS, BFS)</a>
+- <a href="\week12">12주차 : 방향그래프</a>
