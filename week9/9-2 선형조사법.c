@@ -44,16 +44,21 @@ void insertItem(int x)
 
 void findElement(int x)
 {
-    for (int i = 0; i < M; i++)
+    int i = h(x);
+    while (arr[i] != NULL)
     {
         if (arr[i] == x)
         {
-            printf("%d %d\n", i, arr[i]);
+            printf("%d %d\n", i, x);
             return;
+        }
+        else
+        {
+            i++;
+            i = h(i);
         }
     }
     printf("-1\n");
-    return;
 }
 
 void main()

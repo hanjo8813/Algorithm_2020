@@ -3,7 +3,7 @@
 #pragma warning(disable: 4996)
 
 int M, q;
-int* arr;
+int *arr;
 
 int h(int x)
 {
@@ -17,7 +17,7 @@ int h2(int x)
 
 int getNextBucket(int key, int i, int x)
 {
-    return (key + i * h2(x)) % M;
+    return (key + i*h2(x)) % M;
 }
 
 void initBucketArray()
@@ -33,6 +33,7 @@ void insertItem(int x)
     int b, i = 0;
     while (i < M)
     {
+        // i는 충돌횟수
         b = getNextBucket(key, i, x);
         if (arr[b] == NULL)
         {
@@ -47,18 +48,24 @@ void insertItem(int x)
     return;
 }
 
+
 void findElement(int x)
 {
-    for (int i = 0; i < M; i++)
+    int i = h(x);
+    while (arr[i] != NULL)
     {
         if (arr[i] == x)
         {
-            printf("%d %d\n", i, arr[i]);
+            printf("%d %d\n", i, x);
             return;
+        }
+        else
+        {
+            i += h2(x);
+            i = h(i);
         }
     }
     printf("-1\n");
-    return;
 }
 
 void printTable()
@@ -74,7 +81,7 @@ void main()
     char c;
     int n, x;
     scanf("%d %d %d", &M, &n, &q);
-    arr = (int*)malloc(sizeof(int) * M);
+    arr = (int*)malloc(sizeof(int)*M);
     initBucketArray();
 
     while (1)
